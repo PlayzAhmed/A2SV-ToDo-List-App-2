@@ -45,7 +45,7 @@ function removeTask(taskId: string): void {
         console.log(`Can't find a task with ID ${taskId}.`);
     }else {
         tasks.splice(taskIndex, 1);
-        console.log("Task remove!");
+        console.log("Task removed!");
     }
 }
 

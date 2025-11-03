@@ -32,7 +32,7 @@ function removeTask(taskId) {
     }
     else {
         tasks.splice(taskIndex, 1);
-        console.log("Task remove!");
+        console.log("Task removed!");
     }
 }
 function markTaskAsDone(taskId) {
